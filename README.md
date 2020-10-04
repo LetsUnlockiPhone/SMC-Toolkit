@@ -3,7 +3,7 @@ Toolkit written in Python for working with Apple SMC Payloads. Generates complet
 
 __Usage:__
 ```
-reconstruct.py <path>
+reconstruct.py <base path to firmware payloads>
 ```
 
 __Example:__
