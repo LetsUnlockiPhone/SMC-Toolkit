@@ -18,7 +18,7 @@ __Reconstruct.py Example:__
 reconstruct.py SMCPayloads/10.15.6/Mac-B4831CEBD52A0C4C
 ```
 
-`reconstruct.py` will strip payload chunks by address block and store them individually in a folder entitled `extracted` in the same location as `reconstruct.py`. It will then take those chunks and build the firmware file and save it in `extracted/firmware`.
+`reconstruct.py` will strip payload chunks by address block and store them individually in a folder entitled `extracted` in the same location as `reconstruct.py`. It will then take those chunks and build the firmware file and save it in `extracted/firmware`. Works with both older style payloads using 20 byte headers and newer 32 byte headers with 256 RSA signature.
 
 
 __Createpayload.py Usage:__
