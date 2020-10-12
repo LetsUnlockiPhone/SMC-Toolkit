@@ -31,7 +31,7 @@ __Createpayload.py Example:__
 createupdate.py firmware.bin 2.36f7
 ```
 
-`createpayload.py` generates 3 of the 4 older style payload components from a complete firmware file. It will create `flasher_base.smc, flasher_update.smc and Mac-BoardID.smc`. Currently epm files are on the TODO list. For now just use the original epm file. `createpayload.py` is only currently able to generate the older style payloads that use the 20 byte checksum header and security bytes. Deciphering the 256 RSA signature on newer payloads is also on the TODO list.
+`createpayload.py` generates 3 of the 4 older style payload components from a complete firmware file. It will create `flasher_base.smc, flasher_update.smc and Mac-BoardID.smc` and store them in a folder entitled `payload`. Currently epm files are on the TODO list. For now just use the original epm file. `createpayload.py` is only currently able to generate the older style payloads that use the 20 byte checksum header and security bytes. Deciphering the 256 RSA signature on newer payloads is also on the TODO list.
 
 __TODO:__
 - decipher epm file generation
