@@ -1,5 +1,5 @@
 # SMC-Toolkit
-Toolkit written in Python for working with Apple SMC Payloads. It generates complete firmware files from payload components. Intended for 2013+ systems that use smc updates divided into four files (flasher_base, flasher_update, epm, Mac-Board-ID). It can also generate update payloads from a complete firmware file.
+Toolkit written in Python for working with Apple SMC Payloads. It generates complete firmware files from payload components. Intended for 2013+ systems that use smc updates divided into four files (flasher_base, flasher_update, epm, Mac-BoardID). It can also generate update payloads from a complete firmware file.
 
 __Requirements:__
 ```
