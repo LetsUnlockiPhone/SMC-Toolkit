@@ -277,7 +277,7 @@ def main(file, version):
 	write_payload(version, fu_final, 'flasher_update.smc')
 	# To Do: decipher epm
 	#write_payload(version, header, payload, 'firmware.epm')
-	write_payload(version, u_final, 'firmware.smc')
+	write_payload(version, u_final, 'Mac-BoardID.smc')
 	
 
 
